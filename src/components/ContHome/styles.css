@@ -1,0 +1,61 @@
+.cont {
+  margin-top: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info {
+  font-family: "Karla";
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.banner {
+  width: 1000px;
+  height: 750px;
+}
+
+.sub {
+  margin-top: 10%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.buttonGreen {
+  height: 10%;
+  width: 50%;
+  left: 0px;
+  top: 0px;
+  border-radius: 11px;
+  margin-top: 10%;
+
+  background: #73d677;
+  box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #212121;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
