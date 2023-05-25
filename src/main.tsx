@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import PokemonCard from "./components/PokemonCard/index.tsx";
 import Home from "./pages/Home/index.tsx";
+import Pokedex from "./components/Pokedex/index.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/Pokedex",
-    element: <PokemonCard />,
+    element: <Pokedex />,
   },
   {
     path: "/",
